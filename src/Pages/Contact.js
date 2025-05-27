@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -45,11 +47,6 @@ const Contact = () => {
             <div className="col-lg-12">
               <div className="breadcrumb-wrapper">
                 <h1>Contact</h1>
-                <nav>
-                  <a >Home</a>
-                  <i class="bi bi-slash"></i>
-                  <span>Contact</span>
-                </nav>
               </div>
             </div>
           </div>

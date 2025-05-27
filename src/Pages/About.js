@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -46,11 +48,6 @@ const About = () => {
                         <div className="col-lg-12">
                             <div className="breadcrumb-wrapper">
                                 <h1>About</h1>
-                                <nav>
-                                    <a>Home</a>
-                                    <i class="bi bi-slash"></i>
-                                    <span>About</span>
-                                </nav>
                             </div>
                         </div>
                     </div>

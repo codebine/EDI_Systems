@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React , { useEffect }from 'react';
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -90,11 +91,6 @@ const Services = () => {
             <div className="col-lg-12">
               <div className="breadcrumb-wrapper">
                 <h1>Services</h1>
-                <nav>
-                  <a >Home</a>
-                  <i class="bi bi-slash"></i>
-                  <span>Services</span>
-                </nav>
               </div>
             </div>
           </div>
