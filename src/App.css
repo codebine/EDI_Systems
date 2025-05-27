@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+/* In src/index.css or src/App.css */
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import '~owl.carousel/dist/assets/owl.theme.default.css';
+
+/* If you need Font Awesome for the play icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+/* Your custom styles for item-1, item-2, item-3, etc. */
+/* Example (you'll have more specific styles): */
+.main-banner {
+    position: relative;
+    padding: 100px 0; /* Example padding */
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item-1 {
+    background: url('path/to/your/image1.jpg') no-repeat center center/cover;
+    min-height: 400px; /* Example height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item-2 {
+    background: url('path/to/your/image2.jpg') no-repeat center center/cover;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item-3 {
+    background: url('path/to/your/image3.jpg') no-repeat center center/cover;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-text {
+    text-align: center;
+    max-width: 800px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-text h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.header-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-button a, .icon-button a {
+    background-color: #007bff; /* Example color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.main-button a:hover, .icon-button a:hover {
+    background-color: #0056b3;
+}
+
+.icon-button a {
+    display: flex;
+    align-items: center;
+}
+
+.icon-button i {
+    margin-right: 8px;
 }
