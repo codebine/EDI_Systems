@@ -1,6 +1,6 @@
 {
   "name": "edi_systems",
-  "homepage":"https://github.com/codebine/EDI_Systems.git",
+  "homepage": "https://github.com/codebine/EDI_Systems.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,13 +20,11 @@
     "swiper": "^7.4.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
+ "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
