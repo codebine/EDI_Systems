@@ -11,7 +11,7 @@ import Contact from './Pages/Contact'
 const App = () => {
   return (
     <div>
-        <BrowserRouter basename="/">
+        <BrowserRouter basename="/EDI_Systems">
       <Routes >
         <Route path='/'element={<Home/>}></Route>
         <Route path='About'element={<About/>}></Route>
