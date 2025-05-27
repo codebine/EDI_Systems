@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codebine/EDI_Systems.git/static/css/main.546a8717.css",
-    "main.js": "/codebine/EDI_Systems.git/static/js/main.f5612695.js",
+    "main.js": "/codebine/EDI_Systems.git/static/js/main.fefed30d.js",
     "static/js/453.01236928.chunk.js": "/codebine/EDI_Systems.git/static/js/453.01236928.chunk.js",
     "static/media/play-video.jpg": "/codebine/EDI_Systems.git/static/media/play-video.93cd72bb4c51618a0dc7.jpg",
     "static/media/step-1.png": "/codebine/EDI_Systems.git/static/media/step-1.cdf76ec6d159c823aa46.png",
@@ -30,11 +30,11 @@
     "static/media/member-02.jpg": "/codebine/EDI_Systems.git/static/media/member-02.56925136120e07d6405b.jpg",
     "index.html": "/codebine/EDI_Systems.git/index.html",
     "main.546a8717.css.map": "/codebine/EDI_Systems.git/static/css/main.546a8717.css.map",
-    "main.f5612695.js.map": "/codebine/EDI_Systems.git/static/js/main.f5612695.js.map",
+    "main.fefed30d.js.map": "/codebine/EDI_Systems.git/static/js/main.fefed30d.js.map",
     "453.01236928.chunk.js.map": "/codebine/EDI_Systems.git/static/js/453.01236928.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.546a8717.css",
-    "static/js/main.f5612695.js"
+    "static/js/main.fefed30d.js"
   ]
 }
